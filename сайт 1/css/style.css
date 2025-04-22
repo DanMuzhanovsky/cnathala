@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    background: color #f1f1f1;
+    color: #0f141e;
+    font-weight: 100%;
+    font-family: "Roboto", sans-serif;
+Geneva,Verdana,sans-serif;
+
+/* font: normal 16px "Roboto", sans-serif;; */
+}
+.page2{
+    background-color: #ecf7d7;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+
+}
+.page2 ul{
+    list-style-type: style lower-roman;;
+    /* list-style: none; */
+}
+
+.body__container{
+
+    max-width : 75%;
+    margin: auto;
+    
+
+}
+a{
+    color: #0f141e;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    color: #bc0dc2;
+}
+.info{
+    margin-bottom: 20px;
+}
+
+
+.avatar{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info p {
+
+    color: #86898F;
+    margin: 5;
+    font-style: italic;
+    /* font-weight: bold; */
+    text-decoration: line-through;
+
+}
+
+.body__info__frontrend{
+    margin: 0;
+}
+
+.body__info__frontend__p {
+font-style: normal;
+font-weight: bold;
+text-decoration: underline;
+}
+
+
+.card-yellow{
+    background-color: lemonchiffon;
+}
+.card-green{
+    background-color: lightgreen;
+}
+.card-pink{
+    background-color: lightpink;
+}
+.card-blue{
+    background-color: lightblue;
+}
+
+
+.body__card{
+    padding: 15px 20px;
+    /* background-color: rgb(34, 200, 241); */
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 15);
+}
+
+/* .bodi__social{ */
+
+    /* background-color: rgb(58, 154, 245); */
+    /* padding: 15px; */
+    border-radius: 10px;
+    width: 20%;
+    margin: 5px;
+/* } */
+
+
+.body__div__boxes > div {
+    float: left;
+    width: 20%;
+    background: #c3d5f7;
+    height: 200px;
+    border: 2px solid rgb(66, 29, 29);
+    /* шоб блоки выравнивать */
+    box-sizing: border-box;
+    /* margin: 10px; */
+}
+
+..body__div__boxes{
+    
+}
+.body__card h2{
+    margin-bottom: 10px;
+}
+.body__list{
+    padding: 0 20px;
+    /* margin: 20px; */
+    list-style: none;
+}
+.body__list li:nth-child(1),
+.body__list li:nth-child(3){
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.body__table{
+    width: 100%;
+}
+.body__table td{
+    padding-bottom: 10px;
+}
+.body__table td:nth-child(2),
+.body__table td:nth-child(3) {
+    color: #86898f;
+}
+
+
+
+/* пачему не работаешь сука */
+.body__table tr:nth-child(even){
+    border-color: #6038bd;
+}
